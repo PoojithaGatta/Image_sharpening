@@ -18,7 +18,7 @@ To build a lightweight super-resolution model that can upscale low-resolution im
 
 ### 🔹 Result Page
 
-** Enhanced Images ** 
+**Deblurred Images**
 ![Result Image 1](Results/Enhanced0.png)
 
 ![Result Image 2](Results/Enhanced3.png)
