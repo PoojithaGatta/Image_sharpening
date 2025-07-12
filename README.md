@@ -16,12 +16,12 @@ To build a lightweight super-resolution model that can upscale low-resolution im
 
 ---
 
-### 🔹 Result Pages
+### 🔹 Result Page
 
-
+** Enhanced Images ** 
 ![Result Image 1](Results/Enhanced0.png)
 
-
+![Result Image 2](Results/Enhanced3.png)
 
 ![Result Image 3](Results/Enhanced2.png)
 
@@ -43,8 +43,7 @@ To build a lightweight super-resolution model that can upscale low-resolution im
 | 🟦 PSNR (Peak Signal-to-Noise Ratio) | 25.55 dB |
 | 🟩 SSIM (Structural Similarity Index) | 0.7305 |
 
-
-
+---
 
 ## 🛠️ Tech Stack
 
