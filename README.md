@@ -22,8 +22,6 @@ To build a lightweight super-resolution model that can upscale low-resolution im
 ![Result Image 1](Results/Enhanced0.png)
 
 
-![Result Image 2](Results/Enhanced.png)
-
 
 ![Result Image 3](Results/Enhanced2.png)
 
