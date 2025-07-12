@@ -38,8 +38,8 @@ To build a lightweight super-resolution model that can upscale low-resolution im
 ---
 ## 📊 Evaluation Metrics
 
-| Metric | Description                                | Ideal Value  |
-|--------|--------------------------------------------|--------------|
+| Metric | Value  |
+|--------|--------------------------------------------|
 | 🟦 PSNR (Peak Signal-to-Noise Ratio) | 25.55 dB |
 | 🟩 SSIM (Structural Similarity Index) | 0.7305 |
 
