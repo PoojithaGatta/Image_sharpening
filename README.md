@@ -40,7 +40,6 @@ To build a lightweight super-resolution model that can upscale low-resolution im
 - Matplotlib / Pillow
 - TorchVision
 
----
 
 ---
 
