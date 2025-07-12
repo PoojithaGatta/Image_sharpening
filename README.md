@@ -36,6 +36,15 @@ To build a lightweight super-resolution model that can upscale low-resolution im
 > 📐 Both models use bicubic upsampling with a scale factor of `4x`.
 
 ---
+## 📊 Evaluation Metrics
+
+| Metric | Description                                | Ideal Value  |
+|--------|--------------------------------------------|--------------|
+| 🟦 PSNR (Peak Signal-to-Noise Ratio) | 25.55 dB |
+| 🟩 SSIM (Structural Similarity Index) | 0.7305 |
+
+
+
 
 ## 🛠️ Tech Stack
 
