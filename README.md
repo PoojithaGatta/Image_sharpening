@@ -8,6 +8,18 @@ To build a lightweight super-resolution model that can upscale low-resolution im
 
 ---
 
+## 🖼️ Web App 
+
+### 🔹 Upload Page
+
+![Upload Page](Results/Upload.png)
+
+---
+
+### 🔹 Result Page
+
+![Result Page](Results/Enhanced.png)
+
 ## 🧠 Models Used
 
 | Role     | Model Name      | Architecture Details                       |
@@ -28,7 +40,6 @@ To build a lightweight super-resolution model that can upscale low-resolution im
 - Matplotlib / Pillow
 - TorchVision
 
----
 
 ---
 
