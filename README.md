@@ -12,13 +12,13 @@ To build a lightweight super-resolution model that can upscale low-resolution im
 
 ### 🔹 Upload Page
 
-![Upload Page](Results/upload.png)
+![Upload Page](Results/Upload.png)
 
 ---
 
 ### 🔹 Result Page
 
-![Result Page](Results/enhanced.png)
+![Result Page](Results/Enhanced.png)
 
 ## 🧠 Models Used
 
