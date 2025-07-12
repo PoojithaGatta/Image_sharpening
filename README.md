@@ -16,16 +16,16 @@ To build a lightweight super-resolution model that can upscale low-resolution im
 
 ---
 
-### 🔹 Result Page
+### 🔹 Result Pages
 
-**Initial Enhancement**
+
 ![Result Image 1](Results/Enhanced0.png)
 
-**Final Output**
+
 ![Result Image 2](Results/Enhanced.png)
 
-**Alternative Version**
-![Result Image 3](Results/Enhanced3.png)
+
+![Result Image 3](Results/Enhanced2.png)
 
 
 ## 🧠 Models Used
