@@ -8,6 +8,18 @@ To build a lightweight super-resolution model that can upscale low-resolution im
 
 ---
 
+## 🖼️ Web App 
+
+### 🔹 Upload Page
+
+![Upload Page](Results/upload.png)
+
+---
+
+### 🔹 Result Page
+
+![Result Page](Results/enhanced.png)
+
 ## 🧠 Models Used
 
 | Role     | Model Name      | Architecture Details                       |
