@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Enhanced Image Result</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 40px 20px;
+      font-family: 'Inter', sans-serif;
+      background-color: #f5f8fc;
+      color: #333;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 28px;
+      margin-bottom: 40px;
+      color: #2d3e50;
+    }
+
+    .image-wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 40px;
+    }
+
+    .image-card {
+      background: #fff;
+      border-radius: 16px;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+      padding: 20px;
+      width: 320px;
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+
+    .image-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .image-card img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    .image-card h3 {
+      margin-top: 15px;
+      font-size: 16px;
+      color: #555;
+    }
+
+    .buttons {
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    .button {
+      background-color: #407BFF;
+      color: #fff;
+      text-decoration: none;
+      padding: 12px 24px;
+      margin: 0 12px;
+      border-radius: 10px;
+      font-size: 15px;
+      font-weight: 600;
+      transition: background 0.3s ease;
+      display: inline-block;
+    }
+
+    .button:hover {
+      background-color: #2f65d9;
+    }
+
+    @media (max-width: 768px) {
+      .image-card {
+        width: 90%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Image Enhancement Result</h1>
+
+  <div class="image-wrapper">
+    <div class="image-card">
+      <img src="{{ lr_path }}" alt="Low-Resolution Image">
+      <h3>Original Low-Res Image</h3>
+    </div>
+    <div class="image-card">
+      <img src="{{ sr_path }}" alt="Super-Resolved Image">
+      <h3>Enhanced High-Res Output</h3>
+    </div>
+  </div>
+
+  <div class="buttons">
+    <a href="{{ url_for('download_file') }}" class="button">Download Enhanced Image</a>
+    <a href="{{ url_for('index') }}" class="button">Try Another</a>
+  </div>
+
+</body>
+</html>
