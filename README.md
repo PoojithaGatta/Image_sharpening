@@ -58,4 +58,10 @@ python app.py
 Go to http://127.0.0.1:5000 and upload a low-resolution image to get the sharpened super-resolution output.
 
 
+---
 
+### 👥 Collaborators
+
+- Poojitha Gatta  
+- Abhinaya Chalamalsetty  
+- Ubbarapu Siri
