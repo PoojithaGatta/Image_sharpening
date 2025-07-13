@@ -8,6 +8,19 @@ To build a lightweight super-resolution model that can upscale low-resolution im
 
 ---
 
+## 📁 Dataset Structure – DIV2K for 3× & 4× Super-Resolution
+
+The project uses the **DIV2K** dataset, widely adopted for image super-resolution tasks. The dataset is organized into separate directories for training and validation, each containing high-resolution (HR) and low-resolution (LR) image pairs.
+
+- **HR (High-Resolution):**  
+  Contains the original, high-quality images used as ground truth for training and evaluation.
+
+- **LR (Low-Resolution):**  
+  Contains the downsampled versions of the HR images using bicubic interpolation with scale factors like `×3` and `×4`. These are used as inputs to the model.
+
+This dataset structure is used for training and evaluating the performance of student and teacher models in image super-resolution tasks.
+
+
 ## 🖼️ Web App 
 
 ### 🔹 Upload Page
