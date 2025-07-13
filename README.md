@@ -18,7 +18,13 @@ To build a lightweight super-resolution model that can upscale low-resolution im
 
 ### 🔹 Result Page
 
-![Result Page](Results/Enhanced.png)
+**Deblurred Images**
+![Result Image 1](Results/Enhanced0.png)
+
+![Result Image 2](Results/Enhanced4.png)
+
+![Result Image 3](Results/Enhanced2.png)
+
 
 ## 🧠 Models Used
 
@@ -28,6 +34,14 @@ To build a lightweight super-resolution model that can upscale low-resolution im
 | Student  | `EDSR_baseline`  | 4 residual blocks, 32 channels             |
 
 > 📐 Both models use bicubic upsampling with a scale factor of `4x`.
+
+---
+## 📊 Evaluation Metrics
+
+| Metric | Value  |
+|--------|--------------------------------------------|
+| 🟦 PSNR (Peak Signal-to-Noise Ratio) | 25.55 dB |
+| 🟩 SSIM (Structural Similarity Index) | 0.7305 |
 
 ---
 
@@ -58,4 +72,10 @@ python app.py
 Go to http://127.0.0.1:5000 and upload a low-resolution image to get the sharpened super-resolution output.
 
 
+---
 
+### 👥 Collaborators
+
+- Poojitha Gatta  
+- Abhinaya Chalamalsetty  
+- Siri Ubbarapu
